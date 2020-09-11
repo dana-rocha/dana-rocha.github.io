@@ -1,3 +1,4 @@
 # dana-rocha.github.io
 
-Dana Rocha 
+Dana Rocha
+Masters Student
