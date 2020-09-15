@@ -1,4 +1,5 @@
 # dana-rocha.github.io
 
 Dana Rocha
-Masters Student
+Student at Northeastern University.
+Master of Science in Bioinformatics and Graduate Certificate in Data Analytics.
