@@ -51,3 +51,7 @@ ul.posts li {
   text-decoration: none;
   border-radius: 50%;
 }
+
+.fa:hover {
+  opacity: 0.7;
+}
