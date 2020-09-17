@@ -30,8 +30,8 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    border-top: 1px solid #708090;
+    font-size: 2em;
 }
 
 ul.posts {
@@ -44,8 +44,8 @@ ul.posts li {
 
 /* Contact Buttons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 15px;
+  font-size: 20px;
   width: 30px;
   text-align:left;
   text-decoration: none;
