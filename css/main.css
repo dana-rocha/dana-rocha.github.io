@@ -1,17 +1,12 @@
 body {
-    background-color: #E8E8E8;
     margin: 60px auto;
     width: 70%;
     padding-top: 60px;
-
 }
 
 .navbar {
     font-size: 1.5em;
-}
-
-.navbar-nav {
-    color: #4A4A4A;
+    width: 100%;
 }
 
 nav ul, footer ul {
@@ -59,6 +54,7 @@ footer {
     padding-top: 10px;
     font-size: 2em;
     background-color: #4A4A4A;
+    width: 100%;
 }
 
 
