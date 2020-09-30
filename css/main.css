@@ -7,7 +7,10 @@ html, body {
 
 body {
     margin: 60px auto;
-    padding-top: 60px;
+}
+
+#home {
+    margin-top: 20px;
 }
 
 .container-fluid {
@@ -74,8 +77,8 @@ ul.posts li {
     position: fixed;
     left: 0;
     bottom: 0;
-    border-top: 1px solid #708090;
-    padding-top: 10px;
+    /* border-top: 1px solid #708090; */
+    /* padding-top: 10px; */
     font-size: 2em;
     background-color: #474A48;
     width: 100%;
@@ -85,11 +88,11 @@ ul.posts li {
 /* Contact Buttons */
 .fa {
   padding: 15px;
-  font-size: 20px;
+  /* font-size: 20px; */
   width: 30px;
-  text-align:left;
+  text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   color: white;
 }
 
