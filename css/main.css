@@ -1,6 +1,12 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+
 body {
     margin: 60px auto;
-    width: 70%;
     padding-top: 60px;
 }
 
@@ -32,11 +38,18 @@ a:hover {
     text-decoration: underline;
     color: #909590;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding-top: 20px;
 }
+
+h3 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-color: white;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
