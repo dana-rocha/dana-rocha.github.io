@@ -11,6 +11,7 @@ body {
 .navbar {
     font-size: 1.5em;
     width: 100%;
+    color: #8EB897;
 }
 
 nav ul, footer ul {
@@ -29,7 +30,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: #B0C4DE;
+    color: #909590;
 }
 h1 {
     font-size: 3em;
@@ -57,7 +58,7 @@ footer {
     border-top: 1px solid #708090;
     padding-top: 10px;
     font-size: 2em;
-    background-color: #4A4A4A;
+    background-color: #474A48;
     width: 100%;
 }
 
