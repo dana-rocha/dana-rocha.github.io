@@ -4,6 +4,10 @@ body {
     padding-top: 60px;
 }
 
+.container-fluid {
+    width: 100%;
+}
+
 .navbar {
     font-size: 1.5em;
     width: 100%;
