@@ -70,8 +70,10 @@ ul.posts li {
 
 /* Footer */
 
-footer {
+.footer {
     position: fixed;
+    left: 0;
+    bottom: 0;
     border-top: 1px solid #708090;
     padding-top: 10px;
     font-size: 2em;
