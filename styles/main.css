@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: "Noto Serif", "Lato", sans-serif;
+  color: #222;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  padding-top: 6rem;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px 20px;
+  /*border: 2px solid pink;*/
+}
+
+/*h4 {
+  font-size: 20px;
+}*/
+
+
+
+h1, h4 {
+  border: 2px solid blue;
+  line-height:1.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+h4 {
+  text-align: left;
+}
+
+#brand {
+  font-size: 150%;
+  padding-left: 20px;
+}
+
+img {
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 2000;
+    margin: 1.5em;
+}
+
+nav {
+  color: #222;
+}
+
+hr {
+  border-top: 2px solid #d5d5d5;
+  width: 75%;
+}
+
+.navbar-nav li {
+  padding-right: 15px;
+}
+
+.nav-link {
+  color: #222 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-brand:hover {
+  color: #1B9CE5 !important;
+}
+
+.navbar-brand, .nav-link {
+  letter-spacing: 3px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  float: right;
+  background-image: url("github.jpg");
+}
+
+.row {
+  margin: auto;
+  border: 2px solid green;
+}
+
+/*.welcome {
+  border: 2px solid red;
+}*/
+
+.column, .experience {
+  padding: 20px 20px 20px 20px;
+  /*border: 2px solid pink;*/
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Links */
+a:link, a:active, a:visited {
+  color: #222;
+}
+
+/* Other colors: color: #659DBD; color: #5AB9EA; color: #2E9CCA; color: #1B9CE5;*/
+a:hover, .social a:hover {
+  color: #1B9CE5;
+}
+
+.highlight {
+  border-bottom: 2px solid #8FC1E3;
+}
+
+/* Footer */
+footer {
+  padding: 30px 30px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  /*border: 2px solid blue;*/
+}
+
+
+.social a {
+  color: #222;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 600px){
+
+  body {
+    font-size: 95%;
+  }
+
+  h1, h4 {
+    padding: .6rem;
+    font-size: 1.2rem;
+  }
+
+  .column {
+    /* Responsive layout - when the screen is less than 600p wide,
+    the columns stack on top of each other instead of being next to each other */
+    width: 100%;
+  }
+}
+
+/* https://medium.com/@codingdudecom/highlight-text-css-97331a5b71b5 */
