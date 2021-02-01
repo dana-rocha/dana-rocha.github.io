@@ -10,7 +10,7 @@ html, body {
 main {
   width: 55%;
   margin: auto;
-  padding-top: 6rem;
+  padding-top: 9rem;
 }
 
 h1 {
@@ -92,15 +92,10 @@ hr {
 }*/
 
 .column, .experience {
-  padding-top: 20px;
   text-align: left;
   border: 2px solid pink;
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
 
 /* Clear floats after the columns */
 .row:after {
@@ -109,7 +104,9 @@ hr {
   clear: both;
 }
 
-
+.current {
+  padding: 0;
+}
 
 /* Links */
 a:link, a:active, a:visited {
