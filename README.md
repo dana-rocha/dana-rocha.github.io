@@ -1,5 +1,7 @@
-# dana-rocha.github.io
+# Personal Website 
 
-Dana Rocha
-Student at Northeastern University.
-Pursuing a Master of Science in Bioinformatics and Graduate Certificate in Data Analytics.
+This site was hand-coded using HTML/CSS and Jekyll. See it in action at https://dana-rocha.com.
+
+
+Website inspired by Daniel Zhao. 
+Profile Pic is by Victoria Romulo. 
