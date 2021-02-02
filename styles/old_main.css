@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap');
 
+
+
+/****** Divs ******/
+
 html, body {
   height: 100%;
   font-family: 'Lora', "Noto Serif", "Lato", sans-serif;
@@ -19,14 +23,12 @@ h1 {
   /*border: 2px solid green;*/
 }
 
-/*h4 {
-  font-size: 20px;
-}*/
-
+h1, h4 {
+  line-height: 1.25em;
+}
 
 h1, h4, p {
   border: 2px solid blue;
-  line-height:1.25em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin: 0;
@@ -34,6 +36,15 @@ h1, h4, p {
 
 h4 {
   text-align: left;
+}
+
+h3 {
+  /*border: 2px solid green;*/
+  padding: 20px 0px;
+}
+
+p {
+  line-height: 1.5em;
 }
 
 #brand {
@@ -58,6 +69,12 @@ hr {
   width: 75%;
 }
 
+.row {
+  border: 2px dashed green;
+}
+
+/****** NavBar ******/
+
 .navbar-nav li {
   padding-right: 10px;
 }
@@ -74,6 +91,10 @@ hr {
   letter-spacing: 3px;
 }
 
+
+
+/****** Main Content ******/
+
 .avatar {
   border-radius: 50%;
   width: 300px;
@@ -87,15 +108,17 @@ hr {
   /*border: 2px solid green;*/
 }
 
-/*.welcome {
-  border: 2px solid red;
-}*/
 
-.column, .experience {
+.column {
   text-align: left;
-  border: 2px solid pink;
+  /*border: 2px solid pink;*/
+  padding: 30px 0px;
 }
 
+.experience {
+  /*border: 2px solid pink;*/
+  padding: 30px 0px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -108,7 +131,10 @@ hr {
   padding: 0;
 }
 
-/* Links */
+
+
+/****** Links ******/
+
 a:link, a:active, a:visited {
   color: #222;
 }
@@ -119,7 +145,8 @@ a:hover, .social a:hover {
 }
 
 
-/* Footer */
+/****** Footer ******/
+
 footer {
   padding: 30px 30px;
   align-items: center;
@@ -136,20 +163,32 @@ footer {
 }
 
 
-/* Media Queries */
+/****** Media Queries ******/
+
 @media (max-width: 768px) {
+
+  main {
+    width: 80%;
+    padding-top: 30%;
+  }
+
   div {
     justify-content: center;
     align-items: center;
   }
 
-  .column {
-    float: left;
-    width: 50%;
-  }
 }
 
 @media screen and (max-width: 600px){
+
+  main {
+    width: 90%;
+  }
+
+  div {
+    justify-content: center;
+    align-items: center;
+  }
 
   html, body {
     font-size: 95%;
@@ -159,11 +198,6 @@ footer {
     padding: .5rem;
   }
 
-  div {
-    justify-content: center;
-    align-items: center;
-  }
-
   .column {
     /* Responsive layout - when the screen is less than 600p wide,
     the columns stack on top of each other instead of being next to each other */
@@ -171,7 +205,14 @@ footer {
   }
 }
 
-/* https://medium.com/@codingdudecom/highlight-text-css-97331a5b71b5
+
+
+
+
+
+/* Useful Links
+
+  https://medium.com/@codingdudecom/highlight-text-css-97331a5b71b5
   https://www.codeply.com/bootstrap-4-breakpoints
   https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a#:~:text=Go%20to%20your%20GitHub%20Pages,CNAME%20in%20the%20same%20repository.
 */
