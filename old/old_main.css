@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
 
 
 /****** Divs ******/
 
 html, body {
   height: 100%;
-  font-family: 'Lora', "Noto Serif", "Lato", sans-serif;
+  font-family: 'Lora', "Noto Serif", "Lato", serif;
+  font-weight: 400;
   color: #222;
 }
 
@@ -20,6 +19,7 @@ main {
 h1 {
   font-size: 50px;
   padding: 20px 20px;
+  font-weight: 600;
   /*border: 2px solid green;*/
 }
 
@@ -34,8 +34,13 @@ h1, h4, p {
   margin: 0;
 }
 
-h4 {
+h4, p {
   text-align: left;
+  font-weight: 400;
+}
+
+h3, .update-section {
+  font-weight: 600;
 }
 
 h3 {
@@ -43,12 +48,10 @@ h3 {
   padding: 20px 0px;
 }
 
-h6 {
-  font-weight: bold;
-}
 
 p {
   line-height: 1.5em;
+  font-size: 1.2em;
 }
 
 #brand {
@@ -73,6 +76,9 @@ hr {
   width: 75%;
 }
 
+strong {
+  font-weight: bold;
+}
 
 /****** NavBar ******/
 
