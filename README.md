@@ -4,4 +4,4 @@ This static site was hand-coded using HTML/CSS and Jekyll. See it in action at h
 
 
 Website design inspired by Daniel Zhao.
-Profile Picture is by Victoria Romulo.
+Profile Picture was taken by Victoria Romulo.
