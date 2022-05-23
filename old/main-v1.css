@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
+
+
+/* VERSION 1: This file was in the styles directory */
+
+
+/****** Divs ******/
+
+html, body {
+  height: 100%;
+  font-family: 'Lora', "Noto Serif", "Lato", serif;
+  font-weight: 400;
+  color: #222;
+}
+
+main {
+  width: 55%;
+  margin: auto;
+  padding-top: 9rem;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px 20px;
+  font-weight: 600;
+  /*border: 2px solid green;*/
+}
+
+h1, h4 {
+  line-height: 1.25em;
+}
+
+h1, h4, p {
+  /*border: 2px solid blue;*/
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: 0;
+}
+
+h4, p {
+  text-align: left;
+  font-weight: 400;
+}
+
+h3, .update-section {
+  font-weight: 600;
+}
+
+h3 {
+  /*border: 2px solid green;*/
+  padding: 20px 0px;
+}
+
+
+p {
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+#brand {
+  font-size: 150%;
+  padding-left: 20px;
+}
+
+img {
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 2000;
+    margin: 1.5em;
+}
+
+nav {
+  color: #222;
+}
+
+hr {
+  border-top: 2px solid #d5d5d5;
+  width: 75%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/****** NavBar ******/
+
+.navbar-nav li {
+  padding-right: 10px;
+}
+
+.nav-link {
+  color: #222 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-brand:hover {
+  color: #1B9CE5 !important;
+}
+
+.navbar-brand, .nav-link, .update-section, h1 {
+  letter-spacing: 3px;
+}
+
+
+
+/****** Main Content ******/
+
+.avatar {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  float: right;
+  background-image: url("github.jpg");
+}
+
+.row {
+  margin: auto;
+  /*border: 2px solid green;*/
+}
+
+
+/****** Update section ******/
+
+.column {
+  text-align: left;
+  /*border: 2px solid pink;*/
+  padding: 30px 0px;
+}
+
+.update-section {
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #1B9CE5;
+}
+
+.updates {
+  padding-bottom: .8em;
+}
+
+
+.experience {
+  /*border: 2px solid pink;*/
+  padding: 30px 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.current {
+  padding: 0;
+}
+
+
+
+/****** Links ******/
+
+a:link, a:active, a:visited {
+  color: #222;
+}
+
+/* Other colors: color: #659DBD; color: #5AB9EA; color: #2E9CCA; color: #1B9CE5;*/
+a:hover, .social a:hover {
+  color: #1B9CE5;
+}
+
+
+/****** Footer ******/
+
+footer {
+  padding: 30px 30px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  /*border: 2px solid blue;*/
+}
+
+
+.social a {
+  color: #222;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+
+/****** Media Queries ******/
+
+@media (max-width: 768px) {
+
+  main {
+    width: 80%;
+    padding-top: 30%;
+  }
+
+  div {
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  main {
+    width: 90%;
+  }
+
+  div {
+    justify-content: center;
+    align-items: center;
+  }
+
+  html, body {
+    font-size: 95%;
+  }
+
+  h1, h4 {
+    padding: .5rem;
+  }
+
+  .column {
+    /* Responsive layout - when the screen is less than 600p wide,
+    the columns stack on top of each other instead of being next to each other */
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* Useful Links
+
+  https://medium.com/@codingdudecom/highlight-text-css-97331a5b71b5
+  https://www.codeply.com/bootstrap-4-breakpoints
+  https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a#:~:text=Go%20to%20your%20GitHub%20Pages,CNAME%20in%20the%20same%20repository.
+*/
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

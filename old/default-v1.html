@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- VERSION 1: This file was in the _layouts directory -->
+
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- jQuery, Popper.js, Bootstrap JS, FontAwesome -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link href="/styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="brand" href="/">DANA ROCHA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <!--<a class="nav-link mx-2" href="/pages/work.html">WORK</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/resume/DanaRocha-Resume.pdf" target="_blank">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <!--<a class="nav-link mx-2" href="/about/">ABOUT</a>-->
+          </li>
+      </div>
+    </div>
+    </nav>
+  </header>
+
+  <main>
+
+  {{ content }}
+
+  </main>
+
+    <!--- Footer -->
+    <footer id="main-footer">
+        
+      <div class="social">
+        <a href="https://www.linkedin.com/in/rochadana/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/dana-rocha" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:hello@dana-rocha.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.goodreads.com/danarocha" target="_blank"><i class="fab fa-goodreads-g"></i></a>
+      </div>
+        
+      <div class="footer_copy">
+        <h6><strong> &copy; 2021 Dana Rocha </strong></h6>
+      </div>
+        
+    </footer>
+
+</body>
+</html>
