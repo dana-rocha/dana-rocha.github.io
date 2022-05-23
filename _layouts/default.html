@@ -1,105 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- jQuery, Popper.js, Bootstrap JS, FontAwesome -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <!-- Stylesheet -->
-    <link href="/styles/main.css" rel="stylesheet">
-</head>
+  <head>
+      <!-- Meta Tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>{{ page.title }}</title>
+      <!-- Bootstrap CSS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- jQuery, Popper.js, Bootstrap JS, FontAwesome -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <!-- Stylesheet -->
+      <link href="/styles/main.css" rel="stylesheet">
+  </head>
 
-<body>
+  <body>
 
-  <header>
-  <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light py-4">
+    <header>
+    <!-- Navigation -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light py-4">
       <div class="container-fluid">
         <a class="navbar-brand" id="brand" href="/">DANA ROCHA</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <!--<a class="nav-link mx-2" href="/pages/work.html">WORK</a> -->
             </li>
+
+            <li class="nav-item">
+              <!-- <a class="nav-link mx-2" href="/about/index.html">ABOUT</a> -->
+            </li>
+            
             <li class="nav-item">
               <a class="nav-link mx-2" href="/resume/DanaRocha-Resume.pdf" target="_blank">RESUME</a>
             </li>
-            <!-- <li class="nav-item"> -->
-              <!--<a class="nav-link mx-2" href="/about/">ABOUT</a>-->
-            <!-- </li> -->
-          </ul>
+
         </div>
       </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <main>
+    <main>
 
-    <div class="row text-center">
-      <div class="welcome">
-        <img class="profile-pic avatar" src="../media/github.jpg" alt="Profile Picture">
-          <h1><strong>Hi, I'm Dana!</strong></h1>
-          <h4>Recent graduate of Northeastern University - studied <span style="color: #1B9CE5;">Bioinformatics and Data Analytics</span>.
-            Passionate about leveraging data and technology to make informed data-driven decisions.
-          </h4>
-          <h4>Previously at <a href="https://www.merck.com/" target="_blank" class="highlight">Merck & Co.</a>, <a href="https://www.ecdivers.com/" target="_blank" class="highlight">East Coast Divers.</a>, <a href="https://orig3n.com/" target="_blank" id="highlight">Orig3n Inc.</a>, and <a href="https://www.brighamandwomens.org/" target="_blank">Brigham and Women's Hospital</a>.
-          </h4>
-          <h4>Learn more about me or check out my resume. Do we share something in common? <a href="mailto:hello@dana-rocha.com"><strong>Let's Connect→</strong></a></h4>
+      <div class="row text-center">
+        <div class="welcome">
+          <img class="profile-pic avatar" src="../media/github.jpg" alt="Profile Picture">
+            <h1><strong>Hi, I'm Dana!</strong></h1>
+            <h4>A recent graduate of Northeastern University - studied <span style="color: #1B9CE5;">Bioinformatics and Data Analytics</span>.
+              Passionate about leveraging data and technology to make informed data-driven decisions.
+            </h4>
+            <h4>Previously at <a href="https://www.merck.com/" target="_blank" class="highlight">Merck & Co.</a>, <a href="https://www.ecdivers.com/" target="_blank" class="highlight">East Coast Divers.</a>, <a href="https://orig3n.com/" target="_blank" id="highlight">Orig3n Inc.</a>, and <a href="https://www.brighamandwomens.org/" target="_blank">Brigham and Women's Hospital</a>.
+            </h4>
+            <h4>Learn more about me or check out my resume. Do we share something in common? <a href="mailto:hello@dana-rocha.com"><strong>Let's Connect→</strong></a></h4>
+        </div>
       </div>
-    </div>
-    
-    <hr class="my-4">
-    
-    
-    <div class="row current">
-      <div class="column col-lg-6">
-      <h6 class="update-section"><strong> NOW </strong></h6>
-        <h6 class="updates"> Student Facilitator Volunteer @ Northeastern's Graduate Leadership Institute </h6>
-        <h6 class="updates"> Completing personal projects (such as launching this site!) </h6>
+      
+      <hr class="my-4">
+      
+      
+      <div class="row current">
+        <div class="column col-lg-6">
+        <h6 class="update-section"><strong> NOW </strong></h6>
+          <h6 class="updates"> Student Facilitator Volunteer @ Northeastern's Graduate Leadership Institute </h6>
+          <h6 class="updates"> Completing personal projects (such as launching this site!) </h6>
+        </div>
+        <br>
+        <div class="column col-lg-6">
+        <h6 class="update-section"><strong> LATEST </strong></h6>
+          <h6 class="updates"> Actively seeking full-time opportunities starting 2021 </h6>
+          <h6 class="updates"> Participating in my first hackathon, Pearl Hacks, @ UNC Chapel Hill! </h6>
+        </div>
       </div>
-      <br>
-      <div class="column col-lg-6">
-      <h6 class="update-section"><strong> LATEST </strong></h6>
-        <h6 class="updates"> Actively seeking full-time opportunities starting 2021 </h6>
-        <h6 class="updates"> Participating in my first hackathon, Pearl Hacks, @ UNC Chapel Hill! </h6>
-      </div>
-    </div>
-    
-    
-    <hr class="my-4">
-    
-    </div>
+      
+      
+      <hr class="my-4">
+      
+      <!-- <div class="row">
+        <div class="experience">
+        <h3> Education </h3>
+        <p>I recently graduated from Northeastern University,
+          earning a <strong>M.S. in Bioinformatics with a Data Analytics Concentration</strong>.
+          For undergrad, I also attended Northeastern and earned a <strong>B.S. in Biochemistry </strong>in 2018. </p>
+        <p>My informatics training was interdisciplinary - combining Biology,
+          Computer Science, and Statistics. During my Master's program, I learned
+          how to code in Perl and Python.
+          I gained experience with <strong>unit testing, file manipulation, program design,
+          and implementation</strong>.</p>
+        <p>My data science training was focused on <strong>data wrangling, data visualization,
+          and regression</strong> applied to biological data and social science data. I also
+          have experience using machine learning techniques such as <strong>Clustering,
+          Principal Component Analysis, Support Vector Machines, and Neural Networks.</strong>
+          R is my language of choice when it comes to data science.
+          I'm a big fan of tidyverse - particularly the ggplot2 package. </p>
+        </div>
+      </div> -->
 
-  </main>
+    </main>
 
-    <!--- Footer -->
-    <footer id="main-footer">
-        
-      <div class="social">
-        <a href="https://www.linkedin.com/in/rochadana/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/dana-rocha" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="mailto:hello@dana-rocha.com" target="_blank"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.goodreads.com/danarocha" target="_blank"><i class="fab fa-goodreads-g"></i></a>
-      </div>
-        
-      <div class="footer_copy">
-        <h6><strong> &copy; 2021 Dana Rocha </strong></h6>
-      </div>
-        
-    </footer>
+      <!--- Footer -->
+      <footer id="main-footer">
+          
+        <div class="social">
+          <a href="https://www.linkedin.com/in/rochadana/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/dana-rocha" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:hello@dana-rocha.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.goodreads.com/danarocha" target="_blank"><i class="fab fa-goodreads-g"></i></a>
+        </div>
+          
+        <div class="footer_copy">
+          <h6><strong> &copy; 2021 Dana Rocha </strong></h6>
+        </div>
+          
+      </footer>
 
-</body>
+  </body>
 </html>
