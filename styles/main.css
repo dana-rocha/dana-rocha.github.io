@@ -4,10 +4,10 @@
 /****** Divs ******/
 
 html, body {
-  height: 100%;
-  font-family: 'Lora', "Noto Serif", "Lato", serif;
-  font-weight: 400;
-  color: #222;
+	height: 100%;
+	font-family: 'Lora', "Noto Serif", "Lato", serif;
+	font-weight: 400;
+	color: #222;
 }
 
 main {
@@ -60,11 +60,11 @@ p {
 }
 
 img {
-    width: 100%;
-    position: relative;
-    display: block;
-    z-index: 2000;
-    margin: 1.5em;
+	width: 100%;
+	position: relative;
+	display: block;
+	z-index: 2000;
+	margin: 1.5em;
 }
 
 nav {
@@ -119,36 +119,36 @@ strong {
 /****** Update section ******/
 
 .column {
-  text-align: left;
-  /*border: 2px solid pink;*/
-  padding: 30px 0px;
+	text-align: left;
+	/*border: 2px solid pink;*/
+	padding: 30px 0px;
 }
 
 .update-section {
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #1B9CE5;
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #1B9CE5;
 }
 
 .updates {
-  padding-bottom: .8em;
+	padding-bottom: .8em;
 }
 
 
 .experience {
-  /*border: 2px solid pink;*/
-  padding: 30px 0px;
+	/*border: 2px solid pink;*/
+	padding: 30px 0px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .current {
-  padding: 0;
+	padding: 0;
 }
 
 
@@ -156,30 +156,30 @@ strong {
 /****** Links ******/
 
 a:link, a:active, a:visited {
-  color: #222;
+	color: #222;
 }
 
 /* Other colors: color: #659DBD; color: #5AB9EA; color: #2E9CCA; color: #1B9CE5;*/
 a:hover, .social a:hover {
-  color: #1B9CE5;
+	color: #1B9CE5;
 }
 
 
 /****** Footer ******/
 
 footer {
-  padding: 30px 30px;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  /*border: 2px solid blue;*/
+	padding: 30px 30px;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	/*border: 2px solid blue;*/
 }
 
 
 .social a {
-  color: #222;
-  font-size: 25px;
-  padding-right: 10px;
+	color: #222;
+	font-size: 25px;
+	padding-right: 10px;
 }
 
 
@@ -187,42 +187,42 @@ footer {
 
 @media (max-width: 768px) {
 
-  main {
-    width: 80%;
-    padding-top: 30%;
-  }
+	main {
+		width: 80%;
+		padding-top: 30%;
+	}
 
-  div {
-    justify-content: center;
-    align-items: center;
-  }
+	div {
+		justify-content: center;
+		align-items: center;
+	}
 
 }
 
 @media screen and (max-width: 600px){
 
-  main {
-    width: 90%;
-  }
+	main {
+		width: 90%;
+	}
 
-  div {
-    justify-content: center;
-    align-items: center;
-  }
+	div {
+		justify-content: center;
+		align-items: center;
+	}
 
-  html, body {
-    font-size: 95%;
-  }
+	html, body {
+		ont-size: 95%;
+	}
 
-  h1, h4 {
-    padding: .5rem;
-  }
+	h1, h4 {
+		padding: .5rem;
+	}
 
-  .column {
-    /* Responsive layout - when the screen is less than 600p wide,
-    the columns stack on top of each other instead of being next to each other */
-    width: 100%;
-  }
+	.column {
+	/* Responsive layout - when the screen is less than 600p wide,
+	the columns stack on top of each other instead of being next to each other */
+		width: 100%;
+	}
 }
 
 
@@ -232,9 +232,9 @@ footer {
 
 /* Useful Links
 
-  https://medium.com/@codingdudecom/highlight-text-css-97331a5b71b5
-  https://www.codeply.com/bootstrap-4-breakpoints
-  https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a#:~:text=Go%20to%20your%20GitHub%20Pages,CNAME%20in%20the%20same%20repository.
+	https://medium.com/@codingdudecom/highlight-text-css-97331a5b71b5
+	https://www.codeply.com/bootstrap-4-breakpoints
+	https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a#:~:text=Go%20to%20your%20GitHub%20Pages,CNAME%20in%20the%20same%20repository.
 */
 
 /*
