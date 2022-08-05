@@ -98,7 +98,46 @@ strong {
   letter-spacing: 3px;
 }
 
+/* Adding a dark mode toggle button, following this tutorial https://youtu.be/xodD0nw2veQ 
+  Left off at 8:28
+*/
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
 
+.label {
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  height: 26px;
+  width: 50px;
+  padding: 5px;
+  position: relative;
+}
+
+.ball {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.2s linear;;
+}
+
+.checkbox:checked + .label.ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c407;
+}
+
+.fa-sun-bright {
+  color: #f39c12;
+}
 
 /****** Main Content ******/
 
