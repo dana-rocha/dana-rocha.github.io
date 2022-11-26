@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
 
+/****** Variables ******/
+:root {
+	--color-blue: #1B9CE5;
+}
 
 /****** Divs ******/
 
@@ -212,7 +216,26 @@ a:link, a:active, a:visited {
 
 /* Other colors: color: #659DBD; color: #5AB9EA; color: #2E9CCA; color: #1B9CE5;*/
 a:hover, .social a:hover {
-	color: #1B9CE5;
+	color: var(--color-blue);
+}
+
+.highlight:hover {
+	background: var(--color-blue);
+    color: white;
+    transition: all 0.25s;
+}
+
+.highlight {
+	background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(65%, transparent), color-stop(65%, rgba(27, 156, 229, 1)), to(rgba(27, 156, 229, 1)));
+	background: linear-gradient(to bottom, transparent 0, transparent 65%, rgba(205, 226, 239, 1) 65%, rgba(205, 226, 239, 1) 100%);
+	/* background-color: rgba(205, 226, 239, 1); */
+	height: 60%;
+	bottom: 0;
+	width: calc(100% + 4px);
+	z-index: -1;
+	text-decoration: none;
+	border-bottom: rgba(205, 226, 239, 1) 0.125em;
+	transition: color 0.5s ease-in-out;
 }
 
 .project-links {
