@@ -35,7 +35,7 @@ h1, h4, p {
 	margin: 0;
 }
 
-h4, p {
+h4, h5, p {
 	text-align: left;
 	font-weight: 400;
 	}
@@ -217,18 +217,17 @@ a:hover, .social a:hover {
 
 /****** Footer ******/
 
-footer {
+footer, .project-links {
 	padding: 30px 30px;
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
-	/*border: 2px solid blue;*/
 }
 
 
 .social a {
 	color: #222;
-	font-size: 25px;
+	font-size: 35px;
 	padding-right: 10px;
 }
 
