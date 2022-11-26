@@ -21,7 +21,6 @@ h1 {
 	font-size: 50px;
 	padding: 20px 20px;
 	font-weight: 600;
-	/*border: 2px solid green;*/
 }
 
 h1, h4 {
@@ -29,10 +28,11 @@ h1, h4 {
 }
 
 h1, h4, p {
-	/*border: 2px solid blue;*/
+	/* border: 2px solid blue; */
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	margin: 0;
+	display: block;
 }
 
 h4, h5, p {
@@ -45,8 +45,12 @@ h3, .update-section {
 }
 
 h3 {
-	/*border: 2px solid green;*/
 	padding: 20px 0px;
+}
+
+h2 {
+	/* border: 2px solid green; */
+	padding-right: 20px;
 }
 
 
@@ -162,7 +166,6 @@ Left off at 8:28
 
 .row {
 	margin: auto;
-	/*border: 2px solid green;*/
 }
 
 
@@ -170,7 +173,6 @@ Left off at 8:28
 
 .column {
 	text-align: left;
-	/*border: 2px solid pink;*/
 	padding: 30px 0px;
 }
 
@@ -186,7 +188,6 @@ Left off at 8:28
 
 
 .experience {
-	/*border: 2px solid pink;*/
 	padding: 30px 0px;
 }
 
@@ -214,10 +215,25 @@ a:hover, .social a:hover {
 	color: #1B9CE5;
 }
 
+.project-links {
+	/* border: 3px dashed green; */
+	float: right;
+	align-items: center;
+	display: block;
+	padding-top: 0px;
+	margin-top: -5px;
+}
+
+.project-social {
+	/* border: 3px dashed darkblue; */
+	font-size: 40px;
+	padding-top: 0px;
+	margin-top: -2px;
+}
 
 /****** Footer ******/
 
-footer, .project-links {
+footer {
 	padding: 30px 30px;
 	align-items: center;
 	display: flex;
@@ -227,7 +243,7 @@ footer, .project-links {
 
 .social a {
 	color: #222;
-	font-size: 35px;
+	font-size: 40px;
 	padding-right: 10px;
 }
 
