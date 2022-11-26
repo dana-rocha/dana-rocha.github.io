@@ -1,12 +1,140 @@
----
-layout: default
-title: Projects
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- Meta Tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+      <title>{{ page.title }}</title>
+      <!-- Bootstrap CSS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- jQuery, Popper.js, Bootstrap JS, FontAwesome -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <!-- Stylesheet -->
+      <link href="/styles/main.css" rel="stylesheet">
+  </head>
 
-<div class="row text-center">
-  <div class="welcome">
-      <h1><strong>Projects<strong></h1>
-      <h4>This section is still under construction. Coming soon!
-      </h4>
-  </div>
-</div>
+  <body>
+
+    <header>
+    <!-- Navigation -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="brand" href="/">DANA ROCHA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="/pages/projects.html">PROJECTS</a>
+            </li>
+
+            <li class="nav-item">
+              <!-- <a class="nav-link mx-2" href="/about/index.html">ABOUT</a> -->
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="/resume/DanaRocha-Resume.pdf" target="_blank">RESUME</a>
+            </li>
+
+        </div>
+      </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div class="row text-center">
+        <h2><strong>Allen Institute for Neural Dynamics - Data Asset View</strong></h2>
+        <div class="project-links"> 
+          <div class="project-social"> 
+          <a href="https://github.com/AllenNeuralDynamics/aind-data-asset-view" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h4> A React application to view and share brain imaging data that has been registered and analyzed on a third-party cloud platform, Code Ocean. 
+          This project consumes the <a href="https://docs.codeocean.com/user-guide/code-ocean-api/data-asset-api" target="_blank" class="highlight">Code Ocean Data Asset API.</a>
+          <br> 
+          <br> Design: <a href="https://drive.google.com/file/d/1UCaSE5AdGhEd3SzcwLI0Yf5rR9jJb1Xe/view?usp=sharing" target="_blank" class="highlight"> Wireframe - Data Asset View</a>
+          <br> Built with: ReactJS, JavaScript, Material UI
+        </h4>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="row text-center">
+        <h2><strong>Room Reservation System - Capstone Project</strong></h2>
+        <div class="project-links"> 
+          <div class="project-social"> 
+          <a href="https://github.com/dana-rocha/Ada-Reservation" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h4>This project is a web application that tracks room reservation information. This capstone addresses a real world problem at Ada Developers Academy's Seattle campus which currently lacks
+          an automated system for reserving conference rooms.
+          <br> 
+          <br> Deployed with <a href="https://ada-reservation-fb.firebaseapp.com/" target="_blank" class="highlight"> Google Firebase </a>
+          <br> Built with: ReactJS, JavaScript, Google Firestore (NoSQL database), Materialize CSS
+        </h4>
+      </div>
+      
+      <hr class="my-4">
+
+      <div class="row text-center">
+        <h2><strong>Inspiration Board - Group Project</strong></h2>
+        <div class="project-links"> 
+          <div class="project-social"> 
+          <a href="https://github.com/mctagle/front-end-inspiration-board" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h4>This project is a web application where users can leave inspirational "sticky notes" on digital boards. I developed two React components to 
+          display notes for a selected board and allow users to like/delete a note. 
+          <br>
+          <br> Deployed with <a href="https://migrationmess-front-end.herokuapp.com/" target="_blank" class="highlight"> Heroku </a>
+          <br> Built with: ReactJS, JavaScript, HTML/CSS
+        </h4>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="row text-center">
+        <h2><strong>Task List API</strong></h2>
+        <div class="project-links"> 
+          <div class="project-social"> 
+          <a href="https://github.com/dana-rocha/task-list-api" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h4>A web API to create, read, update, and delete tasks and goals. Created custom endpoints and utilized the Slackbot API to show a message when a POST request was successful.
+          <br>
+          <br> Deployed with <a href="https://desolate-crag-61230.herokuapp.com/goals" target="_blank" class="highlight"> Heroku </a>
+          <br> Built with: Python, Flask, PostgreSQL, SQLAlchemy
+        </h4>
+      </div>
+
+      <hr class="my-4">
+
+    </main>
+
+      <!--- Footer -->
+      <footer id="main-footer">
+          
+        <div class="social">
+          <a href="https://www.linkedin.com/in/rochadana/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/dana-rocha" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:hello@dana-rocha.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.goodreads.com/danarocha" target="_blank"><i class="fab fa-goodreads-g"></i></a>
+        </div>
+          
+        <div class="footer_copy">
+          <h6><strong> &copy; 2022 Dana Rocha </strong></h6>
+        </div>
+          
+      </footer>
+
+      <script src="./dark-mode.js"></script>
+  </body>
+</html>

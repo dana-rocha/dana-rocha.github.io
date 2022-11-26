@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
 
+/****** Variables ******/
+:root {
+	--color-blue: #1B9CE5;
+}
 
 /****** Divs ******/
 
@@ -21,7 +25,6 @@ h1 {
 	font-size: 50px;
 	padding: 20px 20px;
 	font-weight: 600;
-	/*border: 2px solid green;*/
 }
 
 h1, h4 {
@@ -29,13 +32,14 @@ h1, h4 {
 }
 
 h1, h4, p {
-	/*border: 2px solid blue;*/
+	/* border: 2px solid blue; */
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	margin: 0;
+	display: block;
 }
 
-h4, p {
+h4, h5, p {
 	text-align: left;
 	font-weight: 400;
 	}
@@ -45,8 +49,12 @@ h3, .update-section {
 }
 
 h3 {
-	/*border: 2px solid green;*/
 	padding: 20px 0px;
+}
+
+h2 {
+	/* border: 2px solid green; */
+	padding-right: 20px;
 }
 
 
@@ -162,7 +170,6 @@ Left off at 8:28
 
 .row {
 	margin: auto;
-	/*border: 2px solid green;*/
 }
 
 
@@ -170,7 +177,6 @@ Left off at 8:28
 
 .column {
 	text-align: left;
-	/*border: 2px solid pink;*/
 	padding: 30px 0px;
 }
 
@@ -186,7 +192,6 @@ Left off at 8:28
 
 
 .experience {
-	/*border: 2px solid pink;*/
 	padding: 30px 0px;
 }
 
@@ -211,9 +216,43 @@ a:link, a:active, a:visited {
 
 /* Other colors: color: #659DBD; color: #5AB9EA; color: #2E9CCA; color: #1B9CE5;*/
 a:hover, .social a:hover {
-	color: #1B9CE5;
+	color: var(--color-blue);
 }
 
+.highlight:hover {
+	background: var(--color-blue);
+    color: white;
+    transition: all 0.25s;
+}
+
+.highlight {
+	background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(65%, transparent), color-stop(65%, rgba(27, 156, 229, 1)), to(rgba(27, 156, 229, 1)));
+	background: linear-gradient(to bottom, transparent 0, transparent 65%, rgba(205, 226, 239, 1) 65%, rgba(205, 226, 239, 1) 100%);
+	/* background-color: rgba(205, 226, 239, 1); */
+	height: 60%;
+	bottom: 0;
+	width: calc(100% + 4px);
+	z-index: -1;
+	text-decoration: none;
+	border-bottom: rgba(205, 226, 239, 1) 0.125em;
+	transition: color 0.5s ease-in-out;
+}
+
+.project-links {
+	/* border: 3px dashed green; */
+	float: right;
+	align-items: center;
+	display: block;
+	padding-top: 0px;
+	margin-top: -5px;
+}
+
+.project-social {
+	/* border: 3px dashed darkblue; */
+	font-size: 40px;
+	padding-top: 0px;
+	margin-top: -2px;
+}
 
 /****** Footer ******/
 
@@ -222,7 +261,6 @@ footer {
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
-	/*border: 2px solid blue;*/
 }
 
 
